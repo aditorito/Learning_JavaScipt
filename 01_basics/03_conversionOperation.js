@@ -22,6 +22,23 @@ let booleanIsLogged = Boolean(isLoggedIn)
 
 let num = 33
 let stringnumber = String(num)
-log
-console.log(stringnumber);
 
+// console.log(stringnumber);
+
+// ************************OPERATIONS********************************
+
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
+// all basic maths like plus minus power are opations
+
+// console.log("1" + 2 + 2) // if first is string that other will be treated 
+// console.log(1 + 2 + "3") // if last one is string first will perform operations and then add treated as string
+
+let gameCounter = 100
+
+let x = 3;
+const y = x++;
+
+// console.log(`x:${x}, y:${y}`);
