@@ -8,7 +8,7 @@ const id = Symbol('1234')
 
 const anotherid = Symbol('1234')
 
-console.log(id == anotherid);
+// console.log(id == anotherid);
 
 const bigNum = 13245634232145
 
@@ -30,4 +30,31 @@ const myfunction = function(){
     
 }
 
-console.log(typeof heros)
+// console.log(typeof heros)
+
+
+
+
+// **********************************************************************************
+
+// Stack(Primitive), Heap memory(Non-Primitive)
+
+let myFriend = 'sambhav'
+let anotherFriend = myFriend
+
+anotherFriend = 'soni'
+console.log(myFriend);
+console.log(anotherFriend);
+
+
+let userOne = {
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "bholu@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email);
